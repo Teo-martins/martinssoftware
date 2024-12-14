@@ -1,0 +1,133 @@
+body{
+    background-color: black !important;
+}
+.navbar{
+    background-color: #fff !important;
+    height: 70px !important;
+}
+.nav-form{
+    margin: 0 0 0 30px;
+}
+.navbar-brand{
+    height: 100px !important;
+    width: 170px !important;
+    margin: 0 60px;
+}
+.inp{
+    width: 500px !important;
+}
+.navbar-nav{
+    margin: 0 0 0 120px;
+}
+.nav-item{
+    padding: 0 4px !important;
+    color: black !important;
+    font-weight: 700 ;
+
+    /* margin: 0 -0px !important; */
+}
+.btn-outline-success{
+    background-color: #f68b1e !important;
+    color: white !important;
+    border: none !important;
+}
+
+.hero{
+    margin: 30px;
+}
+
+.sidebar{
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 5px;
+    font-size: small;
+}
+.carousel img{
+    height: 480px;
+    border-radius: 8px;
+}
+
+.img-card{
+    background-color: #fff;
+    border-radius: 8px;
+    height: fit-content;
+}
+.img-card .card{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    margin: 10px 0 30px;
+    border: none;
+
+}
+
+.flashsales{
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.flash{
+    display: flex;
+    background-color: red;
+    color: white;
+    justify-content: space-between;
+    margin: 0 0 0 -15px;
+    width: 1145px;
+    padding: 0 30px;
+}
+
+.flashsales .card{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px ;
+    border: none;
+}
+
+.image-cards{
+    margin: 30px;
+    background-color: #fff;
+}
+.Bsales{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    margin: 0 0 0 -15px;
+    width: 1145px;
+    padding: 0 30px;
+}
+
+/* banner */
+.banner{
+    margin: 10px;
+    padding: -10px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.banner-cards{ 
+    background-color: #fff;
+    margin: -15px;
+    padding: 0 px;
+
+    
+}
+
+.banner-cards .card{
+   
+    margin: 0px ;
+    border: none;
+    padding:0px 10px 0px 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.banner-cards .card-img-top{
+    width: 550px;
+    height: 200px;
+    padding: 5px 5px 5px 5px; 
+}

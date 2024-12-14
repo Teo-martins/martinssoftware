@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cfc7bb;
+}
+.nav{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 35px;
+    margin: -15px 0 0 0;
+}
+
+.nav button{
+    height: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 18px;
+    border: none;
+    width: 120px;
+    font-size: 13px;
+    margin: 23px 0 0 0;
+}
+.hero{
+    background: url('cat\ background.jpeg');
+    height: 400px;
+    width: 100%;
+    padding: 100px 0 0 0;
+    background-repeat: no-repeat ;
+}
+.hero h3{
+    margin: 0 0 0 30rem;
+    font-size: 35px;
+    font-weight: 900;
+}
+.hero h6{
+    margin: 15px 0 0 10rem;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.hero button{
+    height: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 18px;
+    border: none;
+    width: 120px;
+    font-size: 13px;
+    margin: 23px 0 0 40rem;
+}
+.curious{
+    text-decoration: underline;
+}
+
+.brand{
+    background-color: #fda757;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.brand img{
+    margin: 15px 0 0 0;
+    height: 30px !important;
+    width: 75px;
+}
+.works h1{
+    margin: 50px 0 0 80px;
+}
+.works-content{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+/* yellow-section.css */
+    
+  
+  .yellow-section {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9d94c;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  
+  .content {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cat-image {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .text-block {
+    max-width: 600px;
+    margin-left: 200px;
+  }
+  
+  .text-block h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px 0;
+  }
+  
+  .text-block h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .text-block p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .text-block button {
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    width: 180px;
+    font-size: 18px;
+    margin: 13px 0 0 0;
+    margin-left: 120px;
+  }
+   /* blue section */
+   .blue-section{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 900px;
+    background: url('cat\ eating.jpeg') no-repeat center center;
+    padding: 10px ;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+   }
+   
+   .product h6{
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+    text-transform: uppercase;
+    margin-left: 450px;
+    font-size: medium;
+   }
+   .product h1{
+    font-size: 3.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #000;
+    margin-left: 250px;
+    font-size: 100px;
+   }
+
+   .product-block{
+    background: #fff;
+    padding : 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 900px;
+    margin-bottom: 300px;
+   }
+
+   .product-block p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    font-weight: 600;
+   }
+   .product-block button{
+    height: 20px;
+    background-color: rgb(0, 170, 255);
+    color: #fff;
+    border-radius: 18px;
+    border: none;
+    width: 120px;
+    font-size: 13px;
+    margin: 23px 0 0 0;
+   }
+
+

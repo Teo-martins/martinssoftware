@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>martinsGomycode</title>
     <link rel="shortcut icon" href="neimage.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a{
+            text-decoration: none;
+            color: brown;
+        }
+
+        .hero{
+            background-image: url('futuristic-light-shoes-street-rain-ai-generated.jpg');background-size: 100%;
+            background-repeat: no-repeat;
+         }
+
+         .hero p{
+            text-align: center;
+         }
+    </style>
+
 </head>
-<body>
+<body style="background-color: silver;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin: 0;">
     <h1>Hello world</h1>
     <h2>martins first practice website</h2>
     <nav>
-       <ul>
+       <!-- <ul>
         <li>Home</li>
         <li>Shop</li>
         <li>Product</li>
@@ -21,15 +38,16 @@
         <h1>for SPA</h1>
         <li><a href="#shop">shop</a></li>
         <li><a href="#product">product</a></li>
-       </ul>
+       </ul> -->
+       
 
-       <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="shop.html">shop</a></li>
-        <li><a href="product.html">product</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li><a href="Mywebsite.html">mywebsite</a></li>
+       <ul style="display :flex; justify-content: space-between; list-style: none;">
+        <li><a href="index.html"><b>Home</b></a></li>
+        <li><a href="shop.html"><b>Shop</b></a></li>
+        <li><a href="product.html"><b>Product</b></a></li>
+        <li><a href="about.html"><b>About</b></a></li>
+        <li><a href="contact.html"><b>Contact</b></a></li>
+        <li><a href="Mywebsite.html"><b>Mywebsite</b></a></li>
        </ul>
 
        <h3>follow us on all social media</h3>
@@ -41,7 +59,7 @@
        </ul>
     </nav>
     <iframe width="640" height="360" src="https://www.youtube.com/embed/1SqfYukGSHM" title="Oceans - Hillsong United || Sarah Okafor (Cover)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div>
+    <div class="hero">
         <p>Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing elit.
              Beatae ea dolor temporibus <br> laboriosam voluptates. 
              Recusandae <br> perspiciatis dolores omnis impedit <br> neque est 
@@ -54,7 +72,7 @@
              <h5>celebrity</h5>
              <h6>order</h6>
     </div>
-    <div>
+    <div id="media">
         <img src="neimage.jpg" alt="tech picture" height="200px" width="200px"> <br>
         <video src="beach video.mp4" controls height="400px" width="400px"></video><br>
         <audio src="audioforproject.mp3" controls></audio>

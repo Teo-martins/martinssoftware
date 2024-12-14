@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(39, 42, 41) !important;
+}
+.navbar{
+    background-color: rgb(39, 42, 41) !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navbar-text{
+    color: #aab0be;
+   
+}
+.navbar-brand{
+    height: 70px;
+}
+.nav-item{
+    color: #aab0be !important;
+}
+
+/* secondnav */
+.heading{
+    margin: 0 0 30px;
+    display: flex;
+    list-style: none;
+   
+}
+.nav-word{
+    color: #6376a1 !important;
+    font-size: small;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 15px;
+}
+
+.head-words{
+    color:white;
+    padding: 0 15px;
+}
+.head-w{
+    color: rgb(89, 89, 165);
+    list-style: none;
+    font-size: small;
+    padding: 0 20px;
+
+}
+.head-button{
+    
+    background-color: rgb(11, 129, 0);
+    color: rgb(35, 240, 73);
+    /* padding: 5px 20px; */
+    border-radius: 15px;
+    border: none;
+    font-size: small;
+    height: 25px;
+    width: 90px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.search{
+    margin: 0 0 0 50px;
+}
+
+.head-search{
+    border-radius: 5px;
+    height: 35px !important;
+    width: 300px !important;
+    background-color:none;
+    border: cadetblue;
+    color: #050404;
+    font-size: 12px;
+}
+
+/* coloum and rows */
+
+.col-md-8{
+    margin: 0 0 0 -50px;
+    padding: 0 0 10px 0;
+}
+
+.col-md-8 .card{
+    background-color: rgb(39, 42, 41);
+    color: #fff;
+    height: 100px;
+    border: 1px solid gray;
+    margin: 0 0 10px 0;
+}
+
+.col-md-4{
+    margin: 0 0 0 50px;
+}
+
+.col-md-4 .card{
+    background-color: rgb(39, 42, 41);
+    color: #fff;
+    height: 300px;
+    border: 1px solid gray;
+    margin: 0 0 10px 0;
+}
+
+.col-md-8 .card-title{
+    font-size: smaller;
+    padding: 10px;
+}
+.col-md-8 .head-button{
+
+}
