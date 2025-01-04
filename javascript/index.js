@@ -1,5 +1,5 @@
 // function logout() {
-//    confirm('are byou sure you want to leave this page')
+//    confirm('are you sure you want to leave this page')
 // }
 // console.log(10 / 5);
 // alert('welcome to javascript')
