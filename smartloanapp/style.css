@@ -1,0 +1,140 @@
+body{
+    background-image: url('loan\ background.jpg');
+    background-size: cover;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Courier New', arial, monospace
+}
+.containers{
+    
+    background-color: rgba(3, 19, 83, 0.3);
+    color: #fff;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
+    width: 95%;
+    margin: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.containers h2{
+    margin: 10px 0 0 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.smart{
+    text-align:center;
+    color: #fff;
+}
+
+.loan-calculator{
+    color:aliceblue;
+    border-radius: 10px;
+    border-style: double;
+    padding: 10px;
+    margin: 0px 90px;
+    width: 300px;
+    
+}
+
+.loan-calculator label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Loan Calculator Section */
+.container {
+    background-color: rgb(35, 35, 36);
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff6600; /* Highlighted header color */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #2e2e40;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+option {
+    background-color: #2e2e40;
+    color: #ffffff;
+}
+
+select {
+    background-color: #2e2e40;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #7d3506;
+}
+
+#results h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #d1d5db; /* Subtle text color */
+}
+
+#results span {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.arrow{
+    height: 100px;
+    width: 100px;
+    margin-left: 700px ;
+}

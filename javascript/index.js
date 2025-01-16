@@ -109,24 +109,24 @@
 // console.log(cereals[1])
 // console.log(properties[0]);
 
-const person = {
-    firstName: 'John',
-    lastName: 'Doe',
-    age: 38,
-    address: '123 Main St',
-    married: false,
-    siblings: null,
-    jobDescription: {
-        title: 'Software Engineer',
-        company: 'Google',
-        startDate: '2023-14-21',
-        endDate: 'currently working there',
-        level: {
-            status: 'senior engineer',
-            qualification: ['IBM', 'ISBQT', 'Google'],
-            cridentials: 'Tier 1',
-            role: 'Team lead'
-        }
-    }
-}
-console.log(person.jobDescription.level.qualification[2],person.jobDescription.level.cridentials)
+// const person = {
+//     firstName: 'John',
+//     lastName: 'Doe',
+//     age: 38,
+//     address: '123 Main St',
+//     married: false,
+//     siblings: null,
+//     jobDescription: {
+//         title: 'Software Engineer',
+//         company: 'Google',
+//         startDate: '2023-14-21',
+//         endDate: 'currently working there',
+//         level: {
+//             status: 'senior engineer',
+//             qualification: ['IBM', 'ISBQT', 'Google'],
+//             cridentials: 'Tier 1',
+//             role: 'Team lead'
+//         }
+//     }
+// }
+// console.log(person.jobDescription.level.qualification[2],person.jobDescription.level.cridentials)

@@ -4,23 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <style>
+        .word{
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
     <!-- inline javascript -->
-    <button onclick="alert('Your registration was successful')">Register</button>
+    <!-- <button onclick="alert('Your registration was successful')">Register</button> -->
 
      <!-- internal javascript -->
-     <button onclick="score()">Enter</button>
+     <!-- <button onclick="score()">Enter</button> -->
 
      <!-- external javascript -->
-     <button onclick="logout()">log out</button>
+     <!-- <button onclick="logout()">log out</button> -->
 
-     <script>
+     <!-- <script>
         function score(){
            prompt('enter your jamb score')
         }
-       </script>
-       <script src="index.js"></script>
+    </script> -->
+       <!-- <script src="index.js"></script> -->
+        <!-- <h1 class="mars">Welcome to Mars</h1>
+        <h1>Welcome to Earth</h1>
+        <h1 class="mars">Welcome to Jupiter</h1>
+
+        <p id="name">join us</p> -->
+
+        <div>
+
+            <p>try pressing some keys</p>
+
+            <p id="log"></p>
+
+        </div>
+
+        <script>
+            //queryselector
+            //let greeting =document.querySelector('h1')
+            // greeting.innerText = 'Hello World'
+
+            //querySelectorAll
+            // let greeting = document.querySelectorAll('.mars')
+            // greeting.forEach(val => val.innerText = 'Hello World')
+            // console.log(greeting);
+
+            //getElementById
+            // let greeting = document.getElementById('mars')
+            // console.log(greeting);
+
+            //getElementsByclassName
+            // let greeting = document.getElementsByClassName('mars')
+            // console.log(greeting);
+
+            //getElementsByTagName
+            // let greeting = document.getElementsByTagName('h1')
+            // console.log(greeting);
+
+            // let text = document.querySelector('p')
+            // text.setAttribute('class', 'word') // it makes the tag (p) pick or update a class name from the elements in the setAttribute 
+            // text.removeAttribute('id') //to remove an attribute
+            // text.getAttribute('class') // to fetch an attribute
+            // console.log(text);
+
+            document.addEventListener('keydown', logkey)
+            function logkey(e){
+                log.textContent += " " + e.code
+            }
+            
+
+        </script>
 </body>
 </html>

@@ -9,7 +9,7 @@
 
 // question 2
 
-// let age = 10;
+// let age = 10;b
 // console.log(age);
 
 // let name = "martins"

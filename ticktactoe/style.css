@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Body Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('Game\ background\,\ angrysnail.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    background-image: url('background.jpg');
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Title */
+#playertext {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Restart Button */
+#restartBtn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    color: white;
+    background: #9e7893;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#restartBtn:hover {
+    background: #45a049;
+}
+
+/* Gameboard */
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url('gamebackground.jpg');
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Boxes */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dbc9db;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    background: #45e140;
+}
+
+/* Add a visual cue for player turns (future JS can modify this) */
+.box.taken {
+    cursor: not-allowed;
+    background: #dcdcdc;
+    color: #888;
+}

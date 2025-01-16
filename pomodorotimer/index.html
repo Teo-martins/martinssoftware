@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pomodoro-container">
+        <h1>Pomodoro Timer</h1>
+        <p>Stay focused and productive with the Pomodoro technique!</p>
+
+        <div class="timer-display">
+            <div class="timer-text">
+                <span id="minutes">25</span>:<span id="seconds">00</span>
+            </div>
+        </div>
+        
+
+        <div class="controls">
+            <button id="start-button">Start</button>
+            <button id="pause-button">Pause</button>
+            <button id="reset-button">Reset</button>
+        </div>
+
+        <div class="session-customization">
+            <label for="session-length">Session Length (minutes):</label>
+            <input type="number" id="session-length" min="1" max="60" value="25">
+        </div>
+
+        <div class="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
