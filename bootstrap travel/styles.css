@@ -1,0 +1,78 @@
+/* Dark Theme Styles */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1f1f1f;
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+/* Hero Section */
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Card Styles */
+.dark-card {
+    background-color: #222;
+    color: #ffffff;
+    border: 1px solid #444;
+    transition: transform 0.3s ease;
+}
+.dark-card:hover {
+    transform: scale(1.05);
+}
+.dark-card img {
+    border-bottom: 1px solid #444;
+}
+
+/* Contact Form */
+.form-control {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+.form-control:focus {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border-color: #555;
+    box-shadow: none;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    padding: 15px 0;
+}
+footer a {
+    color: #bbbbbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: #ffffff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 24px;
+    }
+    .dark-card {
+        margin-bottom: 20px;
+    }
+}
